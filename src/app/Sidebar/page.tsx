@@ -1,8 +1,5 @@
-import Sidebar from "@/components/Sidebar/page";
+import Sidebar from "@/components/Sidebar/Sidebar";
 
-export default function () {
-    return (
-        <Sidebar />
-        
-    )
+export default function SidebarPage() {
+  return <Sidebar />;
 }
